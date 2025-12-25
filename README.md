@@ -5,8 +5,9 @@
 Projeto publicado via **GitHub Pages**:
 
 🔗 **Acesse a aplicação em:**  
-https://leandromacedosilva.github.io/to-do-list-vs_001/
-
+<a href="https://leandromacedosilva.github.io/to-do-list-vs_001/" target="_blank">
+  acesso à página das tarefas aqui...
+</a>
 ---
 
 ## 📖 Visão Geral
