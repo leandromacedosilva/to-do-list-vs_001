@@ -44,10 +44,21 @@ button:active {
   background: #c900ec;
 }
 
-ul {}
+ul {
+  list-style-type: none;
+}
 
 li {
   background: #4a148c;
   padding: 10px;
   margin: 10px auto;
+  font-weight: bold;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+span {
+  cursor: pointer;
 }
