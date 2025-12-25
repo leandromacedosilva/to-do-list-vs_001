@@ -4,14 +4,17 @@
 
 Projeto publicado via **GitHub Pages**:
 
-🔗 **Acesse a aplicação:**  
-https://seu-usuario.github.io/seu-repositorio/
+🔗 **Acesse a aplicação em:**  
+https://leandromacedosilva.github.io/to-do-list-vs_001/
 
 ---
 
 ## 📖 Visão Geral
 
-Esta aplicação consiste em uma **Lista de Tarefas (To Do List)** desenvolvida inteiramente em **Frontend**, com o objetivo de demonstrar domínio dos fundamentos do desenvolvimento web moderno, incluindo estruturação semântica, estilização responsiva e manipulação dinâmica do DOM.
+Esta aplicação consiste em uma 
+**Lista de Tarefas (To Do List)** 
+desenvolvida inteiramente em 
+**Frontend**, com o objetivo de demonstrar domínio dos fundamentos do desenvolvimento web moderno, incluindo estruturação semântica, estilização responsiva e manipulação dinâmica do DOM.
 
 O usuário pode **adicionar** e **remover tarefas** de forma simples e intuitiva, sem necessidade de recarregamento da página.
 
@@ -46,14 +49,12 @@ O usuário pode **adicionar** e **remover tarefas** de forma simples e intuitiva
 ---
 
 ## 📂 Estrutura do Projeto
-
-```text
+```
 /
 ├── index.html
-├── css/
-│   └── style.css
-├── js/
-│   └── script.js
+├── reset.css
+├── styles.css
+├── script.js
 └── README.md
 ```
 
@@ -61,7 +62,7 @@ O usuário pode **adicionar** e **remover tarefas** de forma simples e intuitiva
 
 ## ▶️ Execução Local
 
-```bash
+```
 git clone https://github.com/seu-usuario/seu-repositorio.git
 cd seu-repositorio
 ```
