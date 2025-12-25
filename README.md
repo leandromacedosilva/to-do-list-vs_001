@@ -1,24 +1,53 @@
- 📋 To Do List – Lista de Tarefas (Frontend)
-📌 Descrição do Projeto
-Este projeto consiste em uma Lista de Tarefas (To Do List) desenvolvida em Frontend, que permite ao usuário:
-➕ Adicionar novas tarefas
-❌ Deletar tarefas existentes
-A aplicação foi construída com foco em simplicidade, usabilidade e boas práticas de desenvolvimento web, utilizando tecnologias modernas amplamente adotadas no mercado.
+# 📋 To Do List – Aplicação Frontend
 
-🚀 Funcionalidades
-Interface simples e intuitiva
-Inclusão dinâmica de tarefas
-Remoção de tarefas individualmente
-Atualização em tempo real sem recarregar a página
+## 🌐 Demonstração Online
 
-🛠️ Tecnologias Utilizadas
-As principais tecnologias utilizadas no desenvolvimento deste projeto foram:
-HTML5 – Estruturação semântica da aplicação
-CSS3 – Estilização e layout responsivo
-JavaScript (ES6+) – Manipulação do DOM e lógica da aplicação
+Projeto publicado via **GitHub Pages**:
 
-📂 Estrutura do Projeto (exemplo)
+🔗 **Acesse a aplicação:**  
+https://seu-usuario.github.io/seu-repositorio/
 
+---
+
+## 📖 Visão Geral
+
+Esta aplicação consiste em uma **Lista de Tarefas (To Do List)** desenvolvida inteiramente em **Frontend**, com o objetivo de demonstrar domínio dos fundamentos do desenvolvimento web moderno, incluindo estruturação semântica, estilização responsiva e manipulação dinâmica do DOM.
+
+O usuário pode **adicionar** e **remover tarefas** de forma simples e intuitiva, sem necessidade de recarregamento da página.
+
+---
+
+## ✨ Funcionalidades
+
+- Criação dinâmica de tarefas  
+- Remoção individual de tarefas  
+- Interface limpa e responsiva  
+- Atualização em tempo real  
+- Código organizado e de fácil manutenção  
+
+---
+
+## 🛠️ Tecnologias e Conceitos Aplicados
+
+### HTML5
+- Estrutura semântica
+- Boas práticas de acessibilidade
+
+### CSS3
+- Layout responsivo
+- Organização modular de estilos
+- Flexbox
+
+### JavaScript (ES6+)
+- Manipulação do DOM
+- Eventos e funções
+- Código limpo e legível
+
+---
+
+## 📂 Estrutura do Projeto
+
+```text
 /
 ├── index.html
 ├── css/
@@ -26,24 +55,49 @@ JavaScript (ES6+) – Manipulação do DOM e lógica da aplicação
 ├── js/
 │   └── script.js
 └── README.md
+```
 
-▶️ Como Executar o Projeto
-Faça o download ou clone este repositório:
+---
+
+## ▶️ Execução Local
+
+```bash
 git clone https://github.com/seu-usuario/seu-repositorio.git
-Abra o arquivo index.html em qualquer navegador moderno.
-Comece a adicionar e remover suas tarefas.
+cd seu-repositorio
+```
 
-🎯 Objetivo do Projeto
-Este projeto tem como objetivo:
-Praticar conceitos fundamentais de Frontend
-Aplicar manipulação do DOM com JavaScript puro
-Consolidar conhecimentos em HTML5 e CSS3
-Servir como base para futuras evoluções (armazenamento em LocalStorage, backend, framework etc.)
+Abra o arquivo `index.html` em um navegador moderno.
 
-👨‍💻 Autor
-Desenvolvido por:
-Leandro M Silva
-Developer Frontend
+---
 
-📄 Licença
-Este projeto é de uso livre para fins de estudo e aprendizado.
+## 🚀 Publicação com GitHub Pages
+
+Este projeto foi publicado utilizando **GitHub Pages**, reforçando conhecimentos em versionamento e deploy de aplicações frontend estáticas.
+
+Configuração:
+- Branch: main
+- Diretório: root
+
+---
+
+## 🎯 Objetivo Profissional
+
+Projeto desenvolvido com foco em **portfólio profissional**, visando:
+
+- Demonstrar conhecimentos em Frontend
+- Evidenciar domínio de JavaScript puro (Vanilla JS)
+- Praticar organização de código
+- Servir como base para evoluções futuras
+
+---
+
+## 👨‍💻 Desenvolvedor
+
+**Leandro M Silva**  
+Desenvolvedor Frontend  
+
+---
+
+## 📄 Licença
+
+Projeto livre para uso educacional e demonstração em portfólio.
