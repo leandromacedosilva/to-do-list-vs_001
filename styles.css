@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+body {
+  background: #262626;
+  font-family: 'Ubuntu', sans-serif;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #84009b;
+  font-size: 40px;
+  text-align: center;
+}
+
+input {
+  width: 70%;
+  height: 40px;
+  padding: 6px;
+  border: 2px solid #84009b;
+  background: #333333;
+  color: #eeeeee;
+  outline: none;
+}
+
+button {
+  border: none;
+  width: 75px;
+  height: 40px;
+  background: #84009b;
+  color: #ffffff;
+  cursor: pointer;
+  transition: .5s;
+}
+
+button:hover {
+  background: #a900c7;
+  height: 40.5px;
+}
+
+button:active {
+  background: #c900ec;
+}
+
+ul {}
+
+li {
+  background: #4a148c;
+  padding: 10px;
+  margin: 10px auto;
+}
