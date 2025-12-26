@@ -1,27 +1,35 @@
 function taskAdd() {
-  let inputValue = window.document.querySelector('input').value;
+  const input = window.document.querySelector("input");
+  const inputValue = input.value.trim(); // remove espaços em branco
 
-  let li = window.document.createElement("li");
+  // Validação: não permitir tarefa em branco
+  if (inputValue === "") {
+    alert("Não é permitido incluir uma tarefa em branco.");
+    return;
+  }
 
-  li.innerHTML = inputValue + `<span onclick="taskDel(this)"> <img width="48" height="48" src="https://img.icons8.com/doodle/48/delete-sign.png" alt="delete-sign"/> </span>`;
+  const li = window.document.createElement("li");
+
+  li.innerHTML =
+    inputValue +
+    `<span onclick="taskDel(this)">
+        <img width="48" height="48"
+        src="https://img.icons8.com/doodle/48/delete-sign.png"
+        alt="delete-sign"/>
+     </span>`;
 
   window.document.querySelector("ul").appendChild(li);
 
-  window.document.querySelector('input').value = "";
-  //inputValue = "";
+  // Limpa o input
+  input.value = "";
 
-  //console.log(li)
+  // Mensagem de sucesso
+  alert("Tarefa incluída com sucesso.");
 }
 
-function taskDel(li) {
-  li.parentElement.remove();
-  //console.log('tarefa deletada com sucesso...')
-}
+function taskDel(element) {
+  element.parentElement.remove();
 
-/**
- * Passo-a-passo da lista de tarefas
- * [x] saber quando o botao foi clicado
- * [x] pegar o texto dentro do input
- * [x] colocar esse texto na tela
- * [x] deletar a tarefa em tela
- */
+  // Mensagem de sucesso
+  alert("Tarefa excluída com sucesso.");
+}
