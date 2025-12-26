@@ -1,14 +1,28 @@
-function taskAdd() {
-  const input = window.document.querySelector("input");
-  const inputValue = input.value.trim(); // remove espaços em branco
+function showToast(message, type = "success") {
+  const container = document.getElementById("toast-container");
 
-  // Validação: não permitir tarefa em branco
+  const toast = document.createElement("div");
+  toast.classList.add("toast", type);
+  toast.textContent = message;
+
+  container.appendChild(toast);
+
+  setTimeout(() => {
+    toast.remove();
+  }, 3000);
+}
+
+function taskAdd() {
+  const input = document.querySelector("input");
+  const inputValue = input.value.trim();
+
+  // Validação
   if (inputValue === "") {
-    alert("Não é permitido incluir uma tarefa em branco.");
+    showToast("Não é permitido incluir tarefa em branco.", "error");
     return;
   }
 
-  const li = window.document.createElement("li");
+  const li = document.createElement("li");
 
   li.innerHTML =
     inputValue +
@@ -18,18 +32,14 @@ function taskAdd() {
         alt="delete-sign"/>
      </span>`;
 
-  window.document.querySelector("ul").appendChild(li);
+  document.querySelector("ul").appendChild(li);
 
-  // Limpa o input
   input.value = "";
 
-  // Mensagem de sucesso
-  alert("Tarefa incluída com sucesso.");
+  showToast("Tarefa incluída com sucesso.", "success");
 }
 
 function taskDel(element) {
   element.parentElement.remove();
-
-  // Mensagem de sucesso
-  alert("Tarefa excluída com sucesso.");
+  showToast("Tarefa excluída com sucesso.", "success");
 }
